@@ -1,0 +1,46 @@
+.navbar-menu {
+    margin: 10px;
+    margin-right: 16px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .navbar-menu-item {
+    margin: 8px;
+  }
+  
+  .navbar-menu-item a {
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  .navbar-menu-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-menu-item.pic img {
+    border-radius: 999px;
+  }
+  
+  .app-button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease;
+  }
+  .app-button:hover{
+    background-color: #5f636815;
+  }
+  
+  .app-button-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    position: relative;
+  }
